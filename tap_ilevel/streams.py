@@ -15,69 +15,69 @@
 STREAMS = {
 
     'asset_to_asset_relations': {
-        'key_properties': ['id'],
+        'key_properties': [],
         'replication_method': 'FULL_TABLE'
     },
 
     'assets': {
-        'key_properties': ['id'],
+        'key_properties': [],
         'replication_method': 'INCREMENTAL',
         'replication_keys': ['last_modified_date']
     },
 
     'data_items': {
-        'key_properties': ['id'],
+        'key_properties': [],
         'replication_method': 'INCREMENTAL',
         'replication_keys': ['last_modified_date']
     },
 
     'fund_to_asset_relations': {
-        'key_properties': ['id'],
+        'key_properties': [],
         'replication_method': 'FULL_TABLE'
     },
 
     'fund_to_fund_relations': {
-        'key_properties': ['id'],
+        'key_properties': [],
         'replication_method': 'FULL_TABLE'
     },
 
     'funds': {
-        'key_properties': ['id'],
+        'key_properties': [],
         'replication_method': 'INCREMENTAL',
         'replication_keys': ['last_modified_date']
     },
 
     'investment_transactions': {
-        'key_properties': ['id'],
+        'key_properties': [],
         'replication_method': 'INCREMENTAL',
         'replication_keys': ['last_modified']
     },
 
     'investments': {
-        'key_properties': ['id'],
+        'key_properties': [],
         'replication_method': 'INCREMENTAL',
         'replication_keys': ['last_modified_date']
     },
 
     'scenarios': {
-        'key_properties': ['id'],
+        'key_properties': [],
         'replication_method': 'FULL_TABLE'
     },
 
     'securities': {
-        'key_properties': ['id'],
+        'key_properties': [],
         'replication_method': 'INCREMENTAL',
         'replication_keys': ['last_modified_date']
     },
 
     'periodic_data_standardized': {
-        'key_properties': ['hash_key'],
+        'key_properties': [],
         'replication_method': 'INCREMENTAL',
         'replication_keys': ['reported_date_value']
     },
 
     'periodic_data_calculated': {
-        'key_properties': ['hash_key'],
+        'key_properties': [],
         'replication_method': 'INCREMENTAL',
         'replication_keys': ['reported_date_value']
     }
